@@ -1,2 +1,2 @@
 # SkunkNet
-A secure, encrypted messaging protocol for intranets.
+* A secure, encrypted messaging protocol for intranets.
