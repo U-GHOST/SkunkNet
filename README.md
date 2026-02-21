@@ -15,7 +15,6 @@
 ## Getting Started
 * **SkunkNet**'s cli requires the following arguments to render a **SkunkChat** window:
 	* `--iface $IFACE`: The interface to communicate through.
-	* `--iface2 $IFACE_2`: A secondary interface for network monitoring (optional).
 	* `--priv_key $PATH`: The private key path.
 	* `--pub_key $PATH`: The public key path.
 
@@ -23,4 +22,4 @@
 
 ---
 ## Future Iterations
-* In the near future, I'll re-write the `src.skunknet` as a Cython file, enforcing (semi) static types and building `core.skunknet` as a C-lib/shared object (`.so`).
+* In the near future, I'll re-write the `src.skunknet` as a Cython file, enforcing (semi) static types and building it as a C-lib/shared object (`.so`).
