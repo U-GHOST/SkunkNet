@@ -1,0 +1,23 @@
+[project]
+name = "skunknet"
+version = "0.1.0"
+description = "A secure, encrypted messaging protocol for intranets."
+keywords = ["SkunkNet", "Python", "Cryptography", "Networking"]
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+	"Intended Audience :: Social Engineers",
+
+	"Programming Language :: Python :: 3",
+	"Operating System :: Linux",
+]
+dependencies = [
+    "cryptography>=46.0.3",
+    "pyqt5>=5.15.11",
+    "scapy>=2.6.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "SkunkNet",
+]
